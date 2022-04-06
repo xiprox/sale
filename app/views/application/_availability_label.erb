@@ -1,0 +1,11 @@
+<div class="product-availability-label">
+    <% if product.status == 'available' %>
+        <%= if product.available_from? 
+            "Available from #{product.available_from.strftime('%d %B %Y')}"
+        else 
+            'Available now'
+        end %>
+    <% else %>
+        <%= 'Sold' %>
+    <% end %>
+</div>

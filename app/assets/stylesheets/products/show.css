@@ -1,0 +1,28 @@
+.product-details-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.product-details-image {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.product-details-price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.product-details-availability-label {
+    color: var(--on-surface-variant);
+}
+
+.product-details-price-label {
+    color: var(--secondary);
+    font-weight: 600;
+    font-size: 18pt;
+    text-align: end;
+    font-family: monospace;
+    border-radius: 8px;
+}

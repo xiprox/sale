@@ -1,0 +1,15 @@
+<div class="column page admin-page">
+  <div class='column admin-page-title-container'>
+    <%= link_to '← Back to products', products_path %>
+    <div class='row admin-page-title-row'> 
+      <h1 class="admin-page-title">Manage sale</h1>
+      <%= link_to '+', new_product_path, class: 'admin-page-new-button' %>
+    </div>
+  </div>
+
+  <div class="content column">
+    <% @products.each do |product| %>
+        <%= render 'application/product', product: product, link_to: edit_product_path(product) %>
+    <% end %>
+  </div>
+<div>

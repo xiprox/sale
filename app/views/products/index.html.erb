@@ -1,11 +1,9 @@
-<h1>Products</h1>
+<div class="column page center-children">
+  <h1 class="products-page-title">Items on sale</h1>
 
-<ul>
-  <% @products.each do |product| %>
-    <li>
-      <%= link_to product.title, product %>
-    </li>
-  <% end %>
-</ul>
-
-<%= link_to "New Product", new_product_path %>
+  <div class="content column">
+    <% @products.each do |product| %>
+        <%= render 'product', product: product, link_to: product_path(product) %>
+    <% end %>
+  </div>
+<div>

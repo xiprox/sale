@@ -1,0 +1,39 @@
+
+.space-8 {
+    width: 8px;
+    height: 8px;
+}
+
+.space-16 {
+    width: 16px;
+    height: 16px;
+}
+
+.page {
+    padding-top: 48px;
+}
+
+.content {
+    width: var(--content-width);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-children {
+    align-items: center;
+    justify-items: center;
+}
+
+.page-content-card {
+    padding: 16px;
+    background-color: var(--secondary-container);
+    border-radius: 16px;
+}

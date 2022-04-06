@@ -1,0 +1,17 @@
+<div class="product-container">
+  <% if product.has_image? %>
+    <a class='product-tile-image-container' href="<%= link_to %>">
+      <%= image_tag product.image, class: 'product-tile-image' %>
+    </a>
+  <% end %>
+  <div class="product-info-container">
+    <a class="product-title" href="<%= link_to %>"><%= product.title %></a>
+    <div class="description"><%= product.description %></div>
+    <div style='flex: 1'></div>
+    <%= render 'availability_label', product: product %>
+  </div>
+
+  <div class='product-tile-price-label'>
+    <%= render 'price_tag', product: product %>
+  </div>
+</div>

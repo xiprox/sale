@@ -1,0 +1,23 @@
+.admin-page {
+    align-items: center;
+    justify-items: center;
+    padding-top: 0px !important;
+}
+
+.admin-page-title {
+    color: var(--content-color);
+}
+
+.admin-page-title-container {
+    margin-top: 56px;
+    align-items: center;
+}
+
+.admin-page-title-row {
+    align-items: center;
+}
+
+.admin-page-new-button {
+    margin-left: 8px;
+    font-size: 20pt;
+}
