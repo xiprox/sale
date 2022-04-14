@@ -35,12 +35,12 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: var(--secondary);
+    color: var(--tertiary);
 }
 
 /* selected link */
 a:active {
-    color: (--secondary);
+    color: var(--tertiary);
 }
 
 /* For mobile phones: */
