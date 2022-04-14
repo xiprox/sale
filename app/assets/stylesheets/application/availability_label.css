@@ -1,0 +1,5 @@
+.availability-label {
+    margin-bottom: 8px;
+    font-size: 10pt;
+    color: var(--on-surface-variant);
+}

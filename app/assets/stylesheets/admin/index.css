@@ -4,20 +4,20 @@
     padding-top: 0px !important;
 }
 
-.admin-page-title {
+.admin-title {
     color: var(--content-color);
 }
 
-.admin-page-title-container {
+.admin-title-container {
     margin-top: 56px;
     align-items: center;
 }
 
-.admin-page-title-row {
+.admin-title-row {
     align-items: center;
 }
 
-.admin-page-new-button {
+.admin-new-button {
     margin-left: 8px;
     font-size: 20pt;
 }
