@@ -14,6 +14,23 @@ input[type='text'], [type='date'], [type='number'], [type='file'] {
     outline-color: var(--outline);
 }
 
+input[type='submit'] {
+    background-color: var(--primary);
+    color: var(--on-primary);
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover {
+    transform: scale(1.01);
+}
+
+input[type='submit']:active {
+    transform: scale(0.97);
+}
+
 textarea {
     background-color: var(--surface);
     color: var(--on-surface);
@@ -46,4 +63,9 @@ textarea {
     margin-top: 4px;
     font-size: 10pt;
     color: var(--error);
+}
+
+.form-submit {
+    display: flex;
+    justify-content: flex-end;
 }

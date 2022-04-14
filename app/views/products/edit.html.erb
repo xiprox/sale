@@ -1,8 +1,11 @@
 <div class="column page center-children">
     <h1>Update Product</h1>
 
-    <div class="content page-content-card  column ">
+    <div class="content page-content-card column ">
         <%= render "form", product: @product %>
-        <li><%= link_to "Destroy", product_path(@product), data: { turbo_method: :delete, turbo_confirm: "Are you sure?" } %></li>
+    </div>
+    
+    <div class='product-edit-destroy-button-container'>
+        <%= link_to "Delete", product_path(@product), data: { turbo_method: :delete, turbo_confirm: "Are you sure?" } %>
     </div>
 </div>
