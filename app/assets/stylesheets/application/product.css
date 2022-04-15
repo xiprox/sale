@@ -45,7 +45,7 @@
     color: var(--tertiary);
     font-weight: 600;
     font-size: 18pt;
-    text-align: end;
+    text-align: center;
     font-family: monospace;
     background-color: var(--surface);
     padding: 8px;
