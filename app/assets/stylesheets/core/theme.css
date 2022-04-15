@@ -7,31 +7,31 @@ One difference: --background-light is changed to Surface Tone 1 (see: https://m3
 */
 
 :root {
-  --primary: #D0BCFF;
-  --on-primary: #381E72;
-  --primary-container: #4F378B;
-  --on-primary-container: #EADDFF;
-  --secondary: #CCC2DC;
-  --on-secondary: #332D41;
-  --secondary-container: #4A4458;
-  --on-secondary-container: #E8DEF8;
-  --tertiary: #EFB8C8;
-  --on-tertiary: #492532;
-  --tertiary-container: #633B48;
-  --on-tertiary-container: #FFD8E4;
-  --error: #F2B8B5;
-  --on-error: #601410;
-  --error-container: #8C1D18;
-  --on-error-container: #F9DEDC;
-  --outline: #938F99;
-  --background: #1C1B1F;
-  --on-background: #E6E1E5;
-  --surface: #1C1B1F;
-  --on-surface: #E6E1E5;
-  --surface-variant: #49454F;
-  --on-surface-variant: #CAC4D0;
-  --inverse-surface: #E6E1E5;
-  --inverse-on-surface: #1C1B1F;
+  --primary: #87d991;
+  --on-primary: #003912;
+  --primary-container: #00531d;
+  --on-primary-container: #a2f6ab;
+  --secondary: #b8ccb6;
+  --on-secondary: #243425;
+  --secondary-container: #3a4b3a;
+  --on-secondary-container: #d4e8d1;
+  --tertiary: #a1ced6;
+  --on-tertiary: #00363d;
+  --tertiary-container: #1f4d54;
+  --on-tertiary-container: #bceaf3;
+  --error: #ffb4a9;
+  --on-error: #680003;
+  --error-container: #930006;
+  --on-error-container: #ffdad4;
+  --outline: #8b9389;
+  --background: #1a1c19;
+  --on-background: #e1e3dd;
+  --surface: #1a1c19;
+  --on-surface: #e1e3dd;
+  --surface-variant: #414940;
+  --on-surface-variant: #c1c9be;
+  --inverse-surface: #e1e3dd;
+  --inverse-on-surface: #1a1c19;
 }
 
 ::-moz-selection {
