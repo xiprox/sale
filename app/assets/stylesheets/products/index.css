@@ -2,6 +2,20 @@
     color: var(--content-color);
 }
 
+.products-notes {
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10pt;
+    margin-bottom: 32px;
+}
+
+.products-contant-info {
+    display: flex;
+    flex-direction: row;
+}
+
 .products-list {
     width: var(--content-width);
 }

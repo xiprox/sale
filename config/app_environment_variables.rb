@@ -1,3 +1,6 @@
 ENV['SALE_USERNAME'] = 'xip'
 ENV['SALE_PASSWORD'] = 'wao'
 ENV['SALE_CURRENCY'] = 'KM'
+ENV['SALE_SALE_NOTES'] = 'All prices negotiable. Please feel free to contact me for questions or for further details.'
+ENV['SALE_EMAIL'] = 'email@domain.com'
+ENV['SALE_PHONE_NUMBER'] = '012 345 678'

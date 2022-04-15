@@ -1,6 +1,16 @@
 <div class="column page center-children">
   <h1 class="products-title">Items on sale</h1>
 
+  <div class='products-notes'>
+    <%= ENV['SALE_SALE_NOTES'] %>
+    <div class='space-8'></div>
+    <div class='products-contact-info'>
+      <a href='mailto:<%= ENV['SALE_EMAIL'] %>'><%= ENV['SALE_EMAIL'] %></a>
+      •
+      <a href='tel:<%= ENV['SALE_PHONE_NUMBER'] %>'><%= ENV['SALE_PHONE_NUMBER'] %></a>
+    </div>
+  </div>
+
   <div class="content column">
     <% @products.each do |product| %>
         <%= render 'product', product: product, link_to: product_path(product) %>
