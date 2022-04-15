@@ -21,6 +21,8 @@ input[type='submit'] {
     padding: 8px;
     border-radius: 8px;
     cursor: pointer;
+    font-size: 10pt;
+    font-weight: 600;
 }
 
 input[type='submit']:hover {
