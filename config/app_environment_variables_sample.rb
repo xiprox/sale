@@ -1,0 +1,12 @@
+# ENV['SALE_USERNAME'] = 'USERNAME'
+# ENV['SALE_PASSWORD'] = 'PASSWORD'
+# ENV['SALE_CURRENCY'] = 'CURRENCY'
+# ENV['SALE_SALE_NOTES'] = 'All prices negotiable. Please feel free to contact me for questions or for further details.'
+# ENV['SALE_EMAIL'] = 'email@domain.com'
+# ENV['SALE_PHONE_NUMBER'] = '012 345 678'
+
+# ENV['SCALEWAY_ENDPOINT'] = 'https://s3.fr-par.scw.cloud'
+# ENV['SCALEWAY_REGION'] = 'fr-par'
+# ENV['SCALEWAY_ACCESS_KEY_ID'] = 'KEY_ID'
+# ENV['SCALEWAY_SECRET_ACCESS_KEY'] = 'KEY'
+# ENV['SCALEWAY_BUCKET_ID'] = 'ID'
