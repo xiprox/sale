@@ -3,6 +3,8 @@ class ProductsController < ApplicationController
 
   auth except: [:index, :show]
 
+  before_action :redirect_to_https, :only => ['create', 'update']
+
   def index
     @products = Product.all
   end
